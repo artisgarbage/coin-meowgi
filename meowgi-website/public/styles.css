@@ -1,69 +1,82 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
+body,
+html {
+  height: 100%;
+  font-family: Arial, sans-serif;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: url('https://cdn.discordapp.com/attachments/1196993426391052378/1314767514051285044/artisgarbage_a_black_cat_named_Mr._Meowgi_named_after_his_names_1e832a3a-7fbc-42da-9b55-c5150c2ee802.png?ex=6754f82a&is=6753a6aa&hm=8a16aae5d4d24d3ea80f92745d595f3ed8b617d1fd7b5f73a9582ec80cfe38f9') no-repeat center center fixed;
-    background-size: cover;
-    position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("https://cdn.discordapp.com/attachments/1196993426391052378/1314767514051285044/artisgarbage_a_black_cat_named_Mr._Meowgi_named_after_his_names_1e832a3a-7fbc-42da-9b55-c5150c2ee802.png?ex=6754f82a&is=6753a6aa&hm=8a16aae5d4d24d3ea80f92745d595f3ed8b617d1fd7b5f73a9582ec80cfe38f9")
+    no-repeat center center fixed;
+  background-size: cover;
+  position: relative;
 }
 
 .hero {
-    position: absolute;
-    text-align: center;
-    color: white;
-    z-index: 10;
+  position: absolute;
+  text-align: center;
+  color: white;
+  z-index: 10;
+}
+
+.hero {
+  bottom: 0;
 }
 
 .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  /* top: 0; */
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay {
+  bottom: 0;
+}
+
+.overlay {
 }
 
 .title {
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .subtitle {
-    font-size: 1.5em;
-    margin-bottom: 40px;
+  font-size: 1.5em;
+  margin-bottom: 40px;
 }
 
 .cta-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 .cta-button {
-    background-color: #ffcc00;
-    color: #222;
-    text-decoration: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: #ffcc00;
+  color: #222;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .cta-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
 }
