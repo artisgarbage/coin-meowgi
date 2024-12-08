@@ -15,8 +15,7 @@ html {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("https://cdn.discordapp.com/attachments/1196993426391052378/1314767514051285044/artisgarbage_a_black_cat_named_Mr._Meowgi_named_after_his_names_1e832a3a-7fbc-42da-9b55-c5150c2ee802.png?ex=6754f82a&is=6753a6aa&hm=8a16aae5d4d24d3ea80f92745d595f3ed8b617d1fd7b5f73a9582ec80cfe38f9")
-    no-repeat center center fixed;
+  background: url("mrmeowgi-coin-bg.png") no-repeat center center fixed;
   background-size: cover;
   position: relative;
 }
